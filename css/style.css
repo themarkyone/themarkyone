@@ -252,7 +252,7 @@ a:focus {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 40rem;
+    height: 35rem;
 }
 
 .hero .container-fluid {
@@ -699,6 +699,10 @@ a:focus {
         width: 100%;
         padding-left: 38px;
     }
+
+    .experience .timeline .timeline-date {
+        color: #6bbfb8;
+    }
     
     .experience .timeline .timeline-item.left {
         padding-right: 0;
@@ -1088,10 +1092,70 @@ a:focus {
 }
   
 @media screen and (max-width: 600px) {
+    .portfolio {
+        margin-left: 5rem;
+    }
+
+    .portfolio .section-header {
+        margin-left: 4rem;
+    }
+
+    .portfolio .row {
+        width: 20rem;
+    }
+
     .portfolio .column {
       width: 100%;
     }
+
+    .portfolio #myBtnContainer {
+        display:inline-block;
+        margin-left: 5rem
+    };
+
+    .portfolio .content {
+        background-color: #6bbfb8;
+        color: white;
+        padding-bottom: 1rem;
+        padding: 15px;
+        width: 20rem;
+        height: 16rem;
+        margin-right: 1rem;
+    }
 }
+
+@media screen and (max-width: 400px) {
+    .portfolio {
+        margin-left: 1.5rem;
+    }
+
+    .portfolio .section-header {
+        margin-left: 4rem;
+    }
+
+    .portfolio .row {
+        width: 20rem;
+    }
+
+    .portfolio .column {
+      width: 100%;
+    }
+
+    .portfolio #myBtnContainer {
+        display:inline-block;
+        margin-left: 4rem
+    };
+
+    .portfolio .content {
+        background-color: #6bbfb8;
+        color: white;
+        padding-bottom: 1rem;
+        padding: 15px;
+        width: 40rem;
+        height: 20rem;
+    }
+}
+
 
 /*******************************/
 /********* Banner CSS **********/
